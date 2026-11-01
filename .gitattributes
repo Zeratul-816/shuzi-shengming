@@ -1,0 +1,9 @@
+# 统一换行符：源码和文档用 LF，Windows 批处理必须用 CRLF 否则会莫名失败
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# 二进制
+*.db binary
+*.png binary
+*.jpg binary
